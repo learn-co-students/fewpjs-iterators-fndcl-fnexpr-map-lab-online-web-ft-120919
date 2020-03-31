@@ -15,7 +15,6 @@ const titleCased = () => {
   let res = tutorials.map(tutorial => titlize(tutorial))
   return res
 }
-// const titleCased = tutorials.map(tutorial => titlize(tutorial))
 
 function titlize(phrase) {
   const arr = []
@@ -23,6 +22,12 @@ function titlize(phrase) {
   return arr.join(' ')
 }
 
+
+
+// const titleCased = () => {
+//   return tutorial.split(' ').map( word => (word[0].toUpperCase() + word.slice(1))).join(' ')
+//   )
+// }
 
 // let titleCased = tutorials.map(function (tutorial) {
   
@@ -40,8 +45,4 @@ function titlize(phrase) {
         //   )}
         // )
 
-        // const titleCased = () => {
-        //   return tutorial.split(' ').map( word => (word[0].toUpperCase() + word.slice(1))).join(' ')
-        //   )
-        // }
         
